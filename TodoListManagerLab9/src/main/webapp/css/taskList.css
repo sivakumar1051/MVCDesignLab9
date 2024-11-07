@@ -1,0 +1,91 @@
+/* taskListStyles.css */
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container styling */
+.task-list-container {
+    width: 90%;
+    max-width: 900px;
+    background: #ffffff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 24px;
+    color: #4a90e2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #e1e5ea;
+    text-align: left;
+}
+
+th {
+    background-color: #4a90e2;
+    color: white;
+    font-weight: 600;
+}
+
+td {
+    background-color: #f9fbfd;
+}
+
+tr:hover {
+    background-color: #f1f5f9;
+}
+
+/* Action button */
+a, button {
+    padding: 8px 15px;
+    font-size: 14px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.add-task-link {
+    display: inline-block;
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.add-task-link:hover {
+    background-color: #3e7bcf;
+}

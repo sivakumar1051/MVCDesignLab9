@@ -1,0 +1,82 @@
+/* addTask.css */
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Centered Container for the Form */
+.add-task-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Header Styling */
+.add-task-container h1 {
+    font-size: 24px;
+    color: #4a90e2;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+/* Label Styling */
+.add-task-container label {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Input and Dropdown Field Styling */
+.add-task-container input[type="text"],
+.add-task-container select {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9fafb;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.add-task-container input[type="text"]:focus,
+.add-task-container select:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+/* Submit Button Styling */
+.add-task-container button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.add-task-container button:hover {
+    background-color: #45a049;
+}
